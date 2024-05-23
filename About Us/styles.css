@@ -1,0 +1,108 @@
+html{
+    margin: 0px;
+}
+
+body{
+    background-color: grey;    
+}
+
+.title{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 15vh;
+}
+.about{
+    width: 20%;
+    background-color: rgb(105, 139, 238);
+    border-radius: 50px;
+    font-size: 30px;
+    font-style: Regular;
+    text-align: center;
+    font-family: Londrina Shadow;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.details{
+    top: 15vh;
+    height: 60vh;
+    position: absolute;
+    width: 80%;
+    left: 10%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 35vh);
+    gap: 5%;
+    padding-top: 4%;
+}
+
+.persons{
+    background-color: rgb(105, 139, 238);
+    border-radius: 50px;
+    
+}
+
+.name{
+    top: -15%; 
+    text-align: center;
+    font-family: "Comic Neue", cursive;
+    position: relative;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.75rem;
+}
+
+.links{
+    top: -15%;
+    text-align: left;
+    font-family: "Comic Neue", cursive;
+    position: relative;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.25rem;
+}
+
+.comic-neue-light {
+    font-family: "Comic Neue", cursive;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .comic-neue-regular {
+    font-family: "Comic Neue", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .comic-neue-bold {
+    font-family: "Comic Neue", cursive;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .comic-neue-light-italic {
+    font-family: "Comic Neue", cursive;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .comic-neue-regular-italic {
+    font-family: "Comic Neue", cursive;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .comic-neue-bold-italic {
+    font-family: "Comic Neue", cursive;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .logos{
+    height: 25px;
+    width: 25px;
+  }
